@@ -8,7 +8,7 @@
   3. The application will be available at http://127.0.0.1:5000 if run directly in this way
 * It can also be run as a Docker container  
   1. Create a Docker image with ```docker build -t tscript_ws .```
-  2. Run the container with ```docker run -p 127.0.0.1:8008:8008 --env-file .env --name tscript_ws tscript_ws```
+  2. Run the container with ```docker run -d -p 127.0.0.1:8008:8008 --env-file .env --name tscript_ws tscript_ws```
   3. The application will be available at http://127.0.0.1:8008 if run in a docker container or via gunicorn.
 * The application can be run on an external interface by running ```docker run --net host --env-file .env --name tscript_ws tscript_ws```
 * The port can be changed by updating the dockerfile and gunicorn_conf.py
