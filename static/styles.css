@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+title, b, h1, h2, h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #00274c;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+pre {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+select, button {
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+select, input[type="file"], button {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0.5rem;
+}
+
+select {
+    width: 200px;
+}
+
+input[type="file"] {
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1rem 0;
+}
+
+/* Give the transcription-result and summary-result divs a grey background */
+
+/* .results_div {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    width: 100%;
+} */
+
+.result_div {
+    background-color: #e0f7ff;
+    border: 1px solid #b9e1ff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.result_div h3 {
+    margin-top: 0;
+}

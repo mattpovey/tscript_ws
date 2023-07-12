@@ -1,0 +1,11 @@
+Flask
+celery
+gunicorn
+openai
+pysrt
+pydub
+imageio_ffmpeg
+requests
+flask-cors
+logger
+tiktoken

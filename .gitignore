@@ -1,0 +1,13 @@
+uploads
+uploads/
+venv
+venv/
+whisper
+whisper/
+whisper.cpp
+whisper.cpp/
+__pycache__
+__pycache__/
+.env
+.vscode
+tscripts/

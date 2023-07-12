@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+    <title>Audio Transcription</title>
+</head>
+<body>
+    <form action="/task_sel" method="post">
+        <div id="system">
+            <H1>Transcription and Processing Tools</H1>
+            <label for="task_sel"><b>Select a task to perform:</b></label>
+            <select id="task_sel" name="task_sel">
+                <option value="ts_proc">Transcribe and Process Audio</option>
+                <option value="pod_sum">Morning Podcast Summary</option>
+
+            </select><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    
